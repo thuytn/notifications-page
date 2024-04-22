@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./main.js"></script>
+
+</head>
+<body>
+  <main class="container">
+    <!--Title -->
+    <header class="header">
+      <h1 class="title">Notifications <strong class="marked-number"></strong></h1>
+      <a href="" class="mark-all">Mark all as read</a>
+    </header>
+
+    <!--Notifications list -->
+    <ul class="notification-list">
+      <li class="notification-list-item new">
+        <img 
+          src="./assets/images/avatar-mark-webber.webp" 
+          alt="avatar-mark-webber" 
+          class="avatar"
+        />
+        <div class="notification-content">
+          <p>
+            <a href="" class="username">Mark Webber</a>&nbsp;
+            <span class="desc">reacted to your recent post</span>&nbsp;
+            <span><a href="" class="post">My first tournament today!</a></span>
+          </p>
+          <span class="time">1m ago</span>
+        </div>
+      </li>
+      <li class="notification-list-item new">
+        <img 
+          src="./assets/images/avatar-angela-gray.webp" 
+          alt="avatar-angela-gray" 
+          class="avatar"
+        />
+        <div class="notification-content">
+          <p>
+            <a href="" class="username">Angela Gray</a>&nbsp;
+            <span class="desc">followed you</span>
+          </p>
+          <span class="time">5m ago</span>
+        </div>
+      </li>
+      <li class="notification-list-item new">
+        <img
+          src="./assets/images/avatar-jacob-thompson.webp" 
+          alt="avatar-jacob-thompson" 
+          class="avatar"
+        />
+        <div class="notification-content">
+          <p>
+            <a href="" class="username">Jacob Thompson</a>&nbsp;
+            <span class="desc">has joined your group</span>&nbsp;
+            <span><a href="" class="group">Chess Club</a></span>
+          </p>
+          <span class="time">1 day ago</span>
+        </div>
+      </li>
+      <li class="notification-list-item">
+        <img 
+          src="./assets/images/avatar-rizky-hasanuddin.webp" 
+          alt="avatar-rizky-hasanuddin" 
+          class="avatar"
+        />
+        <div class="notification-content">
+          <p>
+            <a href="" class="username">Rizky Hasanuddin</a>&nbsp;
+            <span class="desc">sent you a private message</span>
+          </p>
+          <span class="time">5 day ago</span>
+          <p class="message">
+            Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+            I'm already having lots of fun and improving my game.
+          </p>
+        </div>
+      </li>
+      <li class="notification-list-item">
+        <img 
+          src="./assets/images/avatar-kimberly-smith.webp" 
+          alt="avatar-kimberly-smith" 
+          class="avatar"
+        />
+        <div class="notification-content">
+          <p>
+            <a href="" class="username">Kimberly Smith</a>&nbsp;
+            <span class="desc">commented on your picture</span>
+          </p>
+          <span class="time">1 week ago</span>
+        </div>
+        <a href="">
+          <img 
+            src="./assets/images/image-chess.webp" 
+            alt="image-chess" 
+            class="picture"
+          />
+        </a>
+      </li>
+      <li class="notification-list-item">
+        <img 
+          src="./assets/images/avatar-nathan-peterson.webp" 
+          alt="avatar-nathan-peterson" 
+          class="avatar"
+        />
+        <div class="notification-content">
+          <div>
+            <a href="" class="username">Nathan Peterson</a>&nbsp;
+            <span class="desc">reacted to your recent post</span>&nbsp;
+            <span><a href="" class="post">5 end-game strategies to increase your win rate</a></span>
+          </div>
+          <span class="time">2 weeks ago</span>
+        </div>
+      </li>
+      <li class="notification-list-item">
+        <img 
+          src="./assets/images/avatar-anna-kim.webp" 
+          alt="avatar-anna-kim" 
+          class="avatar"
+        />
+        <div class="notification-content">
+          <p>
+            <a href="" class="username">Anna Kim</a>&nbsp;
+            <span class="desc">has left the group</span>&nbsp;
+            <span><a href="" class="group">Chess Club</a></span>
+          </p>
+          <span class="time">2 weeks ago</span>
+        </div>
+      </li>
+    </ul>
+  </main>
+</body>
+</html>
